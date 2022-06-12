@@ -1,12 +1,14 @@
 branch-defaults:
   default:
-    environment: Udagram-env
+    environment: null
+    group_suffix: null
 environment-defaults:
   Udagram-env:
     branch: null
     repository: null
 global:
-  application_name: udagram
+  application_name: '-1'
+  branch: null
   default_ec2_keyname: null
   default_platform: Node.js 14 running on 64bit Amazon Linux 2
   default_region: us-east-2
@@ -15,5 +17,6 @@ global:
   platform_name: null
   platform_version: null
   profile: null
+  repository: null
   sc: null
   workspace_type: Application
