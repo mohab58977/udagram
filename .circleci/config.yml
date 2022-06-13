@@ -67,8 +67,8 @@ jobs:
             
 workflows:
   udagram:
-    jobs:
-      - build
+    jobs:     
+      - build 
       - hold:
           type: approval
           requires:
