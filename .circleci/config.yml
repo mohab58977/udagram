@@ -76,7 +76,7 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            printf '1' | eb init --region us-east-1 udagram
+            printf "1\n" | eb init --region us-east-1 udagram
             
       - run:
           name: Deploy backend -setting enviroment variables-
