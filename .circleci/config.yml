@@ -69,8 +69,8 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            cd udagram/udagram-api
             npm run api:build
+            
       - run:
           name: Deploy backend initializing the enviroment
           # TODO: Install, build, deploy in both apps
