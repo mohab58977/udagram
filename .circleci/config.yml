@@ -63,20 +63,13 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            npm run frontend:deploy
-      - run:
-          name: Deploy backend build stage
-          # TODO: Install, build, deploy in both apps
-          command: |
-            echo "# TODO: Install, build, deploy in both apps"
-            npm run api:build
             
       - run:
           name: Deploy backend initializing the enviroment
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
-            printf n | printf 1 | eb init --region us-east-1 udagram
+            npm run api:deploy
             
       - run:
           name: Deploy backend -setting enviroment variables-
